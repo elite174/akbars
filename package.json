@@ -2,7 +2,7 @@
   "name": "akbars",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://elite174.github.io/music-app",
+  "homepage": "https://elite174.github.io/akbars",
   "dependencies": {
     "@babel/core": "7.1.0",
     "@svgr/webpack": "2.4.1",
