@@ -1,13 +1,13 @@
 {
-  "main.css": "/music-app/static/css/main.8bdc8a10.chunk.css",
-  "main.js": "/music-app/static/js/main.b6cb2d22.chunk.js",
-  "main.js.map": "/music-app/static/js/main.b6cb2d22.chunk.js.map",
-  "static/js/1.ed0a8628.chunk.js": "/music-app/static/js/1.ed0a8628.chunk.js",
-  "static/js/1.ed0a8628.chunk.js.map": "/music-app/static/js/1.ed0a8628.chunk.js.map",
-  "runtime~main.js": "/music-app/static/js/runtime~main.45ca33d8.js",
-  "runtime~main.js.map": "/music-app/static/js/runtime~main.45ca33d8.js.map",
-  "static/css/main.8bdc8a10.chunk.css.map": "/music-app/static/css/main.8bdc8a10.chunk.css.map",
-  "index.html": "/music-app/index.html",
-  "precache-manifest.34a42c04146643be114fddfcbed2c268.js": "/music-app/precache-manifest.34a42c04146643be114fddfcbed2c268.js",
-  "service-worker.js": "/music-app/service-worker.js"
+  "main.css": "/akbars/static/css/main.8bdc8a10.chunk.css",
+  "main.js": "/akbars/static/js/main.b6cb2d22.chunk.js",
+  "main.js.map": "/akbars/static/js/main.b6cb2d22.chunk.js.map",
+  "static/js/1.6f020584.chunk.js": "/akbars/static/js/1.6f020584.chunk.js",
+  "static/js/1.6f020584.chunk.js.map": "/akbars/static/js/1.6f020584.chunk.js.map",
+  "runtime~main.js": "/akbars/static/js/runtime~main.ee56b462.js",
+  "runtime~main.js.map": "/akbars/static/js/runtime~main.ee56b462.js.map",
+  "static/css/main.8bdc8a10.chunk.css.map": "/akbars/static/css/main.8bdc8a10.chunk.css.map",
+  "index.html": "/akbars/index.html",
+  "precache-manifest.55c8c9a651323dd455a437ae56b5310d.js": "/akbars/precache-manifest.55c8c9a651323dd455a437ae56b5310d.js",
+  "service-worker.js": "/akbars/service-worker.js"
 }
