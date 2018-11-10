@@ -1,0 +1,22 @@
+.client-flow{
+    width: 80%;
+    margin: auto;
+}
+
+.client-flow__container{
+    display: flex;
+}
+
+.client-flow__item{
+
+}
+
+.client-flow__item__name{
+    margin: 0;
+    font-size: 14px;
+}
+
+.client-flow__item__value{
+    margin: 0;
+    font-size: 18px;
+}

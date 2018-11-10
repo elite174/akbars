@@ -1,22 +1,23 @@
-.icon{
+.icon {
     font-size: 18px;
     margin-left: 5px;
     display: inline-flex;
     align-items: center;
+    margin-right: 5px;
 }
 
-.icon:first-child{
-    margin: 0;
-}
-
-.icon_size_big{
+.icon_size_big {
     font-size: 24px;
 }
 
-.icon_color_red{
-    color: red;
+.icon_color_red {
+    color: var(--red);
 }
 
-.icon_color_blue{
+.icon_color_green {
+    color: var(--green);
+}
+
+.icon_color_blue {
     color: blue;
 }
