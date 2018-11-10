@@ -10,6 +10,13 @@
     font-size: 24px;
 }
 
+.icon_size_huge{
+    font-size: 48px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 20px;
+}
+
 .icon_color_red {
     color: var(--red);
 }

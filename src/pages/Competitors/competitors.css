@@ -1,0 +1,61 @@
+.competitors{
+    padding: 30px;
+    overflow: auto;
+    background-color: var(--text-dark);
+    color: white;
+    height: 100%;
+}
+
+.comp{
+    padding: 0 15px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: var(--text-light);
+    position: relative;
+}
+
+.comp:hover .comp__name{
+    color: var(--main);
+}
+
+.comp__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.comp__link{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: var(--white-dark);
+    transition-property: color;
+    transition-duration: 250ms;
+}
+
+.comp__link:hover{
+    color: white;
+}
+
+.comp__name{
+    font-size: 20px;
+    margin-bottom: 5px;
+    transition-property: color;
+    transition-duration: 250ms;
+}
+
+.comp__business{
+    font-size: 16px;
+    color: var(--white-dark);
+}
+
+.comp__address{
+    font-size: 14px;
+    color: var(--white-dark);
+}

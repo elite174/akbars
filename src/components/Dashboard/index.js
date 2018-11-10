@@ -16,6 +16,7 @@ class Dashboard extends React.Component {
         return <div className='dashboard'>
             <Menu />
             <div className='dashboard__content'>
+                <div className='dashboard__name'>Пупа делает за Лупу co.</div>
                 {store.page === PAGES.stat && <Stat />}
                 {store.page === PAGES.map && <Map />}
                 {store.page === PAGES.competitors && <Competitors />}
