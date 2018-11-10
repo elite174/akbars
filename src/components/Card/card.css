@@ -1,0 +1,11 @@
+.card{
+    padding: 10px;
+    box-shadow: 5px 5px 10px var(--shadow-light);
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    cursor: pointer;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 10px var(--shadow-dark);
+}

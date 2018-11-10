@@ -1,0 +1,22 @@
+.icon{
+    font-size: 18px;
+    margin-left: 5px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.icon:first-child{
+    margin: 0;
+}
+
+.icon_size_big{
+    font-size: 24px;
+}
+
+.icon_color_red{
+    color: red;
+}
+
+.icon_color_blue{
+    color: blue;
+}
