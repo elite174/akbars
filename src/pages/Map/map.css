@@ -1,15 +1,57 @@
-.map{
+.map {
     display: flex;
     height: 100%;
 }
 
-.map__filter{
+.map__filter {
     width: 200px;
     flex-shrink: 0;
     height: 100%;
 }
 
-.map__container{
+.map__container {
     height: 100%;
     width: 100%;
+}
+
+.filter {
+    color: white;
+}
+
+.filter-item {
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+.filter-item__input {
+    width: 100%;
+    margin: auto;
+}
+
+.filter-item__name {
+    font-size: 14px;
+    color: var(--white-dark);
+    margin-right: 10px;
+}
+
+.filter-item__row {
+    display: flex;
+}
+
+.filter-item__button {
+    margin: auto;
+    background-color: var(--text-dark);
+    color: var(--white);
+    width: 70%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-property: color;
+    transition-duration: 250ms;
+}
+
+.filter-item__button:hover {
+    color: var(--main);
 }

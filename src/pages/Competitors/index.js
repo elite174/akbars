@@ -24,7 +24,9 @@ class Competitors extends React.Component {
         return <div className='competitors'>
             {this.state.competitors.map(comp => {
                 return <div className='comp' key={comp.id}>
-                    <div className='comp__logo' style={{ backgroundImage: comp.image }}></div>
+                    <div className='comp__logo-container'>
+                        <div className='comp__logo' style={comp.urlLogo !== '' ? { backgroundImage: `url(${comp.urlLogo})` } : {}} ></div>
+                    </div>
                     <div className='comp__info'>
                         <div className='comp__name'>{comp.name}</div>
                         <div className='comp__business'>{comp.business}</div>

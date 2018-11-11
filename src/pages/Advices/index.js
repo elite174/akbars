@@ -8,33 +8,18 @@ class Advices extends React.Component {
         types: [
             {
                 id: 1,
-                type: 'map',
-                advices: [
-                    {
-                        text: "askfnqeofn",
-                        id: 1
-                    }
-                ]
+                type: 'contacts',
+                advices: []
             },
             {
                 id: 2,
-                type: 'map',
-                advices: [
-                    {
-                        text: "askfnqeofn",
-                        id: 1
-                    }
-                ]
+                type: 'beer',
+                advices: []
             },
             {
                 id: 3,
-                type: 'map',
-                advices: [
-                    {
-                        text: "askfnqeofn",
-                        id: 1
-                    }
-                ]
+                type: 'locate',
+                advices: []
             },
 
         ]

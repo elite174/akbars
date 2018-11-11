@@ -27,7 +27,7 @@ class Stat extends React.Component {
             .then(res => res.json())
             .then(data => {
                 console.log(data);
-                this.setState({ data })//, this.setOption)
+                this.setState({ data }, this.setOption);
             })
     }
     setOption = () => {
@@ -68,14 +68,14 @@ class Stat extends React.Component {
             series: [{
                 name: 'Клиентопоток',
                 type: 'bar',
-                data: this.state.flow.map(item => item.value),
+                data: this.state.data.flow.map(item => item.value),
                 animationDelay: function (idx) {
                     return idx * 10;
                 }
             }, {
                 name: 'Прибыль',
                 type: 'bar',
-                data: this.state.income.map(item => item.value),
+                data: this.state.data.income.map(item => item.value/1000),
                 animationDelay: function (idx) {
                     return idx * 10 + 100;
                 }
@@ -88,9 +88,8 @@ class Stat extends React.Component {
         this.chart.setOption(option);
     }
     componentDidMount() {
-        this.fetchData();
         this.chart = echarts.init(this.container);
-        this.setOption();
+        this.fetchData();
     }
     render() {
         return <div className='stat'>
@@ -108,17 +107,11 @@ class Stat extends React.Component {
                         <div className='counter__unit'>Прибыть</div>
                     </div>
                 </div>
-                <div className='counter'>
-                    <div className='counter__content'>
-                        <div className='counter__val'>123</div>
-                        <div className='counter__unit'>чел блять</div>
-                    </div>
-                </div>
             </div>
             <div className='caption'>Типичные пользователи</div>
             <div className='profiles'>
                 {this.state.data.profiles.map(p => {
-                    return <div className='profile'>
+                    return <div className='profile' key={p.name}>
                         <div className='profile__image' style={{ backgroundImage: `url(${p.image})` }}></div>
                         <div className='profile__info'>
                             <div className='profile__prop'>Имя</div>

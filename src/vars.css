@@ -1,14 +1,23 @@
 :root{
-    --main: hsl(142, 100%, 30%);
+    
     --green: hsl(142, 100%, 40%);
     --red: hsl(0, 100%, 40%);
     --background: hsl(142, 2%, 95%);
-    --text-dark: hsl(142, 0%, 15%);
+    
     --text-light: hsl(142, 0%, 25%);
     --white-dark: hsl(142, 0%, 65%);
     
-    --shadow-light: hsl(142, 0%, 80%);
+    --main: hsl(142, 100%, 30%);
+    --shadow-light: rgb(27, 16, 16);
     --shadow-dark: hsl(142, 0%, 60%);
+
+    --background-light: #f5f5f5;
+    --violent: #10002b;
+    --blue: #04a099;
+    --white: hsl(142, 0%, 95%);
+
+    --text-secondary: #d3d3d3;
+    --text-dark: hsl(142, 0%, 15%);
 }
 
 .card{
@@ -17,7 +26,7 @@
     transition-property: box-shadow;
     transition-duration: 250ms;
     cursor: pointer;
-    background-color: white;
+    background-color: var(--white);
 }
 
 .card:hover{

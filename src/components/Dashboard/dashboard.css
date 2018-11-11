@@ -10,6 +10,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .dashboard__name{
@@ -19,5 +20,16 @@
     padding-left: 30px;
     display: flex;
     align-items: center;
-    color: white;
+    color: var(--white);
+}
+
+.dashboard__logo{
+    position: absolute;
+    height: 90px;
+    width: 180px;
+    top: 0;
+    right: 0;
+    background-image: url('./logo.png');
+    background-position: center center;
+    background-size: cover;
 }
