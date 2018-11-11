@@ -1,13 +1,13 @@
 {
-  "main.css": "/akbars/static/css/main.8bdc8a10.chunk.css",
-  "main.js": "/akbars/static/js/main.b6cb2d22.chunk.js",
-  "main.js.map": "/akbars/static/js/main.b6cb2d22.chunk.js.map",
-  "static/js/1.6f020584.chunk.js": "/akbars/static/js/1.6f020584.chunk.js",
-  "static/js/1.6f020584.chunk.js.map": "/akbars/static/js/1.6f020584.chunk.js.map",
+  "main.css": "/akbars/static/css/main.548ef4d6.chunk.css",
+  "main.js": "/akbars/static/js/main.bf381de3.chunk.js",
+  "main.js.map": "/akbars/static/js/main.bf381de3.chunk.js.map",
+  "static/js/1.a25b9c65.chunk.js": "/akbars/static/js/1.a25b9c65.chunk.js",
+  "static/js/1.a25b9c65.chunk.js.map": "/akbars/static/js/1.a25b9c65.chunk.js.map",
   "runtime~main.js": "/akbars/static/js/runtime~main.ee56b462.js",
   "runtime~main.js.map": "/akbars/static/js/runtime~main.ee56b462.js.map",
-  "static/css/main.8bdc8a10.chunk.css.map": "/akbars/static/css/main.8bdc8a10.chunk.css.map",
+  "static/css/main.548ef4d6.chunk.css.map": "/akbars/static/css/main.548ef4d6.chunk.css.map",
   "index.html": "/akbars/index.html",
-  "precache-manifest.55c8c9a651323dd455a437ae56b5310d.js": "/akbars/precache-manifest.55c8c9a651323dd455a437ae56b5310d.js",
+  "precache-manifest.f468c7591dfcfac942da6d3d3db98f58.js": "/akbars/precache-manifest.f468c7591dfcfac942da6d3d3db98f58.js",
   "service-worker.js": "/akbars/service-worker.js"
 }
