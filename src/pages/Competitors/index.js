@@ -1,6 +1,7 @@
 import React from 'react';
 import './competitors.css';
 import Icon from '../../elements/Icon';
+import { combineMods } from '../../utils';
 
 class Competitors extends React.Component {
     state = {
@@ -21,9 +22,10 @@ class Competitors extends React.Component {
     }
 
     render() {
-        return <div className='competitors'>
+        return <div className={combineMods('competitors', { empty: this.state.competitors.length == 0 })}>
+            {this.state.competitors.length === 0 && <div className='msg'>Нет элементов для отображения</div>}
             {this.state.competitors.map(comp => {
-                return <div className='comp' key={comp.id}>
+                return <div className='comp shadow' key={comp.id}>
                     <div className='comp__logo-container'>
                         <div className='comp__logo' style={comp.urlLogo !== '' ? { backgroundImage: `url(${comp.urlLogo})` } : {}} ></div>
                     </div>

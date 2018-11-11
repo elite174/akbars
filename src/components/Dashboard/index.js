@@ -7,6 +7,7 @@ import Stat from '../../pages/Stat';
 import Competitors from '../../pages/Competitors';
 import Advices from '../../pages/Advices';
 import Map from '../../pages/Map';
+import Logo from '../../elements/Logo'
 
 @inject('store')
 @observer
@@ -16,8 +17,7 @@ class Dashboard extends React.Component {
         return <div className='dashboard'>
             <Menu />
             <div className='dashboard__content'>
-                <div className='dashboard__name'>Пупа делает за Лупу co.</div>
-                <div className='dashboard__logo'></div>
+                <div className='dashboard__name'>EasyMap</div>
                 {store.page === PAGES.stat && <Stat />}
                 {store.page === PAGES.map && <Map />}
                 {store.page === PAGES.competitors && <Competitors />}

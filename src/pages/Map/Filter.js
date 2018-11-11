@@ -13,21 +13,28 @@ class Filter extends React.Component {
     render() {
         const { data } = this.props;
         return <div className='filter'>
-        <div className='caption'>Фильтр</div>
+            <div className='caption'>Фильтр</div>
             <div className='filter-item'>
-                <div className='filter-item__name'>Клиентопоток</div>
+                <div className='filter-item__row'>
+                    <div className='filter-item__name'>Клиентопоток</div>
+                    <div className='filter-item__value'>{this.state.commonFlow}</div>
+                </div>
                 <input className='filter-item__input' min="33" max="147" type='range' name='commonFlow' onChange={this.handleChange} value={this.state.commonFlow} />
-                <div className='filter-item__value'>{this.state.commonFlow}</div>
+
             </div>
             <div className='filter-item'>
-                <div className='filter-item__name'>Средний чек</div>
+                <div className='filter-item__row'>
+                    <div className='filter-item__name'>Средний чек</div>
+                    <div className='filter-item__value'>{this.state.bill}</div>
+                </div>
                 <input className='filter-item__input' min="250" max="1900" type='range' name='bill' onChange={this.handleChange} value={this.state.bill} />
-                <div className='filter-item__value'>{this.state.bill}</div>
             </div>
             <div className='filter-item'>
-                <div className='filter-item__name'>Количество конкурентов</div>
+                <div className='filter-item__row'>
+                    <div className='filter-item__name'>Конкуренты</div>
+                    <div className='filter-item__value'>{this.state.comp_count}</div>
+                </div>
                 <input className='filter-item__input' min="15" max="29" type='range' name='comp_count' onChange={this.handleChange} value={this.state.comp_count} />
-                <div className='filter-item__value'>{this.state.comp_count}</div>
             </div>
             <div className='filter-item'>
                 <div className='filter-item__row'>

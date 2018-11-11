@@ -12,7 +12,7 @@
 
 .icon_size_huge{
     font-size: 48px;
-    border: 2px solid white;
+    border: 2px solid var(--blue);
     border-radius: 50%;
     padding: 20px;
 }

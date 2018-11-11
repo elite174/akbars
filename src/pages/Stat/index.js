@@ -37,7 +37,7 @@ class Stat extends React.Component {
         }
         let option = {
             title: {
-                text: 'Клиентопоток/Прибыль (час)'
+                text: 'Клиентопоток/Прибыль (день)'
             },
             legend: {
                 data: ['Клиентопоток', 'Прибыль'],
